@@ -25,11 +25,11 @@ public class Principal {
         t3.establecerTarifa();
 
         TransporteAereo aereo = new TransporteAereo();
-        aereo.establecerAerolinea("Vuelo 32");
+        aereo.establecerAerolinea("Iberia Express");
         aereo.establecerTarifa();
 
         TransporteMaritimo mar = new TransporteMaritimo();
-        mar.establecerNombreBarco("El Titanic");
+        mar.establecerNombreBarco("El Manantial");
         mar.establecerTarifa();
 
         ArrayList<Transporte> tipos = new ArrayList();
