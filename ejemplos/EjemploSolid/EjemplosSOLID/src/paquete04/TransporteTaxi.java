@@ -19,7 +19,7 @@ public class TransporteTaxi extends Transporte {
     
     
     public void establecerTarifa(){
-        tarifa = 0.40 + (0.40*0.5);
+        tarifa = 0.40 + (0.40 * 0.5);
     }
     
     

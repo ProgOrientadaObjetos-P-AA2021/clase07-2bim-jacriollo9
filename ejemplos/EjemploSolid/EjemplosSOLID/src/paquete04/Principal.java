@@ -21,7 +21,7 @@ public class Principal {
         taxi.establecerTarifa();
 
         TransporteTransvia t3 = new TransporteTransvia();
-        t3.establecerNombreTren("Chu Chu");
+        t3.establecerNombreTren("Ganchuca Garza");
         t3.establecerTarifa();
 
         TransporteAereo aereo = new TransporteAereo();
@@ -32,20 +32,20 @@ public class Principal {
         mar.establecerNombreBarco("El Manantial");
         mar.establecerTarifa();
 
-        ArrayList<Transporte> tipos = new ArrayList();
-        tipos.add(bus);
-        tipos.add(taxi);
-        tipos.add(t3);
-        tipos.add(aereo);
-        tipos.add(mar);
+        ArrayList <Transporte> transportes = new ArrayList();
+        transportes.add(bus);
+        transportes.add(taxi);
+        transportes.add(t3);
+        transportes.add(aereo);
+        transportes.add(mar);
 
-        TiposTransporte tiposTrans = new TiposTransporte();
+        TiposTransporte tipos = new TiposTransporte();
 
-        tiposTrans.establecerTransportes(tipos);
+        tipos.establecerTransportes(transportes);
 
-        tiposTrans.establecerPromedioTarifas();
+        tipos.establecerPromedioTarifas();
 
         System.out.printf("Promedio de Tarifas: %.2f\n",
-                tiposTrans.obtenerPromedioTarifas());
+                tipos.obtenerPromedioTarifas());
     }
 }
