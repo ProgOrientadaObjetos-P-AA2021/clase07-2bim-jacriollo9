@@ -10,7 +10,7 @@ package paquete07;
  *
  * @author reroes
  */
-public class EvaluacionEnsayo extends Evaluacion{
+public class EvaluacionEnsayo extends Evaluacion {
     private int numeroProblemas;
     private double totalProblemas;
     
